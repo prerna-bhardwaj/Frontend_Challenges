@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow : hsl(71, 73%, 54%);
+    --light-gray : hsl(204, 43%, 93%);
+    --grayish-blue : hsl(218, 22%, 67%);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    padding: 100px 30px;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius:  5px;
+    box-shadow: 0 0 14px 1px #858484;
+    overflow: hidden;
+}
+
+.item {
+    padding: 30px;
+}
+
+.item-1 {
+    background-color: white;
+}
+
+.item-1 h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--cyan);
+}
+
+.item-1 h3 {
+    color: var(--bright-yellow);
+    padding: 20px 0;
+}
+
+.item-1 p {
+    color: var(--grayish-blue);
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.item-2 {
+    background-color: var(--cyan);
+    color: white;
+}
+
+.item-2 h3 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.item-2 p{
+    font-size: 1.2rem;
+}
+
+.item-2 p span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: 10px
+}
+
+.item-2 .access {
+    margin-top: 8px;
+}
+
+.item-2 .button {
+    background-color: var(--bright-yellow);
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px 1px #858484;
+}
+
+.item-3 {
+    color: white;
+    background-color:hsl(179, 76%, 43%);
+}
+
+.item-3 p{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 800px) {
+    /* .container {
+        grid-template-columns: 1fr 1fr;
+        max-width: 50%;
+    }
+
+    .item {
+        padding: 30px;
+    }
+
+    .item-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .item-1 h1 {
+        font-size: 1.7rem;
+    }
+
+    .item-2 h3, 
+    .item-3 h3{
+        font-size: 1.3rem;
+    } */
+
+}
