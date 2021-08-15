@@ -112,7 +112,7 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-    /* .container {
+    .container {
         grid-template-columns: 1fr 1fr;
         max-width: 50%;
     }
@@ -133,6 +133,6 @@ body {
     .item-2 h3, 
     .item-3 h3{
         font-size: 1.3rem;
-    } */
+    }
 
 }
