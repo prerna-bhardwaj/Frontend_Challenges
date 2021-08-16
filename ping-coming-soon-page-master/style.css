@@ -177,4 +177,9 @@ form input[type="email"]::placeholder {
     .copyright{
         font-size: 1rem;
     }
+
+    .dashboard {
+		max-width: 700px;
+		margin: 0 auto;
+	}
 }
